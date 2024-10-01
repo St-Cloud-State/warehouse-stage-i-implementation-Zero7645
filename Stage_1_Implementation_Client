@@ -1,0 +1,81 @@
+Script started on 2024-10-01 17:12:48+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="159" LINES="11"]
+[0;32m@Zero7645 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-Zero7645 [0;36m([1;31mmain[0;36m) [0m$ cd ClientTesting
+[0;32m@Zero7645 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-Zero7645/ClientTesting [0;36m([1;31mmain[0;36m) [0m$ javac *
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[0;32m@Zero7645 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-Zero7645/ClientTesting [0;36m([1;31mmain[0;36m) [0m$ java Simlp[K[Kpler[KTester
+
+Start of the tests for the functions in the Client Class
+
+
+Start of the tests for the getters and setters in the Client Class
+
+TestFirst: should be TestFirst
+TestSecond: should be TestSecond
+TestFirst TestSecond: should be TestFirst TestSecond
+320-360-: should be 320-360-
+TestAdd: should be TestAdd
+Sunder: should be Sunder
+Zachary: should be Zachary
+Sunder Zachary: should be Sunder Zachary
+320-360-5570: should be 320-360-5570
+17699 Gayle Dr.: should be 17699 Gayle Dr.
+Zachary: should be Sunder
+Sunder: should be Zachary
+Zachary Sunder: should be Zachary Sunder
+C1: should be C1
+
+Start of the tests for user input for creating a Client Class object type
+
+Enter the client's first name: Luis
+Enter the client's last name: Aguilar
+Enter the client's address: 1st St. S
+Enter the client's phone number: 990-321-5437
+User created client information:
+Id C2
+Client name: Luis Aguilar
+Address 1st St. S
+Phone 990-321-5437
+
+Start of the tests for the wishlisted function in the Client Class
+
+productName: Computer
+productType: Electronic
+id: 1
+Added to the Client's Wishlist
+
+Items in the Client's Wishlist:
+productName: Computer
+productType: Electronic
+id: 1
+
+
+Start of the tests for the ClientList Class
+
+Added the client to the ClientList.
+Added the client to the ClientList.
+Id C1
+Client name: Zachary Sunder
+Address 17699 Gayle Dr.
+Phone 320-360-5570
+
+Id C2
+Client name: Luis Aguilar
+Address 1st St. S
+Phone 990-321-5437
+
+
+
+Testing:
+
+ [Id C1
+Client name: Zachary Sunder
+Address 17699 Gayle Dr.
+Phone 320-360-5570, Id C2
+Client name: Luis Aguilar
+Address 1st St. S
+Phone 990-321-5437]
+[0;32m@Zero7645 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-Zero7645/ClientTesting [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-10-01 17:14:04+00:00 [COMMAND_EXIT_CODE="0"]

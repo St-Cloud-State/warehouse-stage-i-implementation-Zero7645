@@ -1,4 +1,4 @@
-Script started on 2024-10-08 01:41:40+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="159" LINES="11"]
+Script started on 2024-10-08 01:48:28+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="159" LINES="11"]
 [0;32m@Zero7645 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-Zero7645 [0;36m([1;31mmain[0;36m) [0m$ cd WarehouseStage1/
 [0;32m@Zero7645 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-Zero7645/WarehouseStage1 [0;36m([1;31mmain[0;36m) [0m$ javac *.java
 Note: Client.java uses unchecked or unsafe operations.
@@ -13,25 +13,12 @@ Welcome to the Warehouse Management System
 5. Add Product to Wishlist
 6. Exit
 Choose an option: 1
-Enter Client First Name: Zachary S  
+Enter Client First Name: Zachary Sunder       
 Enter Client Last Name: Sunder
 Enter Client Address: 720 Fourth Avenue South, St. Cloud, MN
 Enter Client Phone Number: (320) 308-0121
 Client added: 
 	Client's name: Zachary Sunder, ID: C1, Address: 720 Fourth Avenue South, St. Cloud, MN, Phone Number: (320) 308-0121
-
-Welcome to the Warehouse Management System
-1. Add Client
-2. Add Product
-3. View Clients
-4. View Products
-5. Add Product to Wishlist
-6. Exit
-Choose an option: 2
-Enter Product Name: Computer
-Enter Product Price: 12000 
-Enter Product Quantity: 341
-Product added: Product name: Computer, ID: P1, Price: 1200.0, Quantity: 341
 
 Welcome to the Warehouse Management System
 1. Add Client
@@ -52,10 +39,34 @@ Welcome to the Warehouse Management System
 4. View Products
 5. Add Product to Wishlist
 6. Exit
+Choose an option: 2 4
+
+Products:
+
+Welcome to the Warehouse Management System
+1. Add Client
+2. Add Product
+3. View Clients
+4. View Products
+5. Add Product to Wishlist
+6. Exit
+Choose an option: 2
+Enter Product Name: Computer
+Enter Product Price: 1200
+Enter Product Quantity: 312
+Product added: Product name: Computer, ID: P1, Price: 1200.0, Quantity: 312
+
+Welcome to the Warehouse Management System
+1. Add Client
+2. Add Product
+3. View Clients
+4. View Products
+5. Add Product to Wishlist
+6. Exit
 Choose an option: 4
 
 Products:
-Product name: Computer, ID: P1, Price: 1200.0, Quantity: 341
+Product name: Computer, ID: P1, Price: 1200.0, Quantity: 312
 
 Welcome to the Warehouse Management System
 1. Add Client
@@ -65,7 +76,7 @@ Welcome to the Warehouse Management System
 5. Add Product to Wishlist
 6. Exit
 Choose an option: 1
-Enter Client First Name: D Connor
+Enter Client First Name: Connor
 Enter Client Last Name: St. Aubin
 Enter Client Address: 720 Fourth Avenue South, St. Cloud, MN
 Enter Client Phone Number: (320) 308-0121
@@ -79,7 +90,7 @@ Welcome to the Warehouse Management System
 4. View Products
 5. Add Product to Wishlist
 6. Exit
-Choose an option: 2 3
+Choose an option: 3
 
 Clients:
 	Client's name: Zachary Sunder, ID: C1, Address: 720 Fourth Avenue South, St. Cloud, MN, Phone Number: (320) 308-0121
@@ -95,8 +106,8 @@ Welcome to the Warehouse Management System
 Choose an option: 2
 Enter Product Name: Phone
 Enter Product Price: 450
-Enter Product Quantity: 213
-Product added: Product name: Phone, ID: P2, Price: 450.0, Quantity: 213
+Enter Product Quantity: 123
+Product added: Product name: Phone, ID: P2, Price: 450.0, Quantity: 123
 
 Welcome to the Warehouse Management System
 1. Add Client
@@ -108,8 +119,8 @@ Welcome to the Warehouse Management System
 Choose an option: 4
 
 Products:
-Product name: Computer, ID: P1, Price: 1200.0, Quantity: 341
-Product name: Phone, ID: P2, Price: 450.0, Quantity: 213
+Product name: Computer, ID: P1, Price: 1200.0, Quantity: 312
+Product name: Phone, ID: P2, Price: 450.0, Quantity: 123
 
 Welcome to the Warehouse Management System
 1. Add Client
@@ -118,7 +129,7 @@ Welcome to the Warehouse Management System
 4. View Products
 5. Add Product to Wishlist
 6. Exit
-Choose an option: 5
+Choose an option: 4 5
 Enter Client ID: C1
 Enter Product ID: P1
 Product added to wishlist.
@@ -135,4 +146,52 @@ Enter Client ID: C2
 Enter Product ID: P1
 Product added to wishlist.
 
-Welcome to the Warehouse Management Syste
+Welcome to the Warehouse Management System
+1. Add Client
+2. Add Product
+3. View Clients
+4. View Products
+5. Add Product to Wishlist
+6. Exit
+Choose an option: 5
+Enter Client ID: C1
+Enter Product ID: P2
+Product added to wishlist.
+
+Welcome to the Warehouse Management System
+1. Add Client
+2. Add Product
+3. View Clients
+4. View Products
+5. Add Product to Wishlist
+6. Exit
+Choose an option: 5
+Enter Client ID: P2
+Enter Product ID: C2
+Client or Product not found.
+
+Welcome to the Warehouse Management System
+1. Add Client
+2. Add Product
+3. View Clients
+4. View Products
+5. Add Product to Wishlist
+6. Exit
+Choose an option: 5
+Enter Client ID: C2
+Enter Product ID: P2
+Product added to wishlist.
+
+Welcome to the Warehouse Management System
+1. Add Client
+2. Add Product
+3. View Clients
+4. View Products
+5. Add Product to Wishlist
+6. Exit
+Choose an option: 6
+Exiting...
+[0;32m@Zero7645 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-Zero7645/WarehouseStage1 [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-10-08 01:50:42+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,19 @@
+# Products:
+ProductID: P1, Name: Laptop, Price: 1200.99, Quantity: 15
+ProductID: P2, Name: Smartphone, Price: 799.50, Quantity: 25
+ProductID: P3, Name: Tablet, Price: 450.25, Quantity: 10
+ProductID: P4, Name: Headphones, Price: 99.99, Quantity: 50
+ProductID: P5, Name: Smartwatch, Price: 199.99, Quantity: 30
+
+# Clients:
+ClientID: C1, Name: John Doe, Address: 123 Main St
+ClientID: C2, Name: Jane Smith, Address: 456 Oak Ave
+ClientID: C3, Name: Bob Johnson, Address: 789 Pine Rd
+ClientID: C4, Name: Alice Brown, Address: 101 Maple Blvd
+
+# Wishlists:
+ClientID: C1, Wishlist: P1(1), P2(2), P4(1)
+ClientID: C2, Wishlist: P3(2), P5(1)
+ClientID: C3, Wishlist: P1(1), P4(2)
+ClientID: C4, Wishlist: P2(1), P5(1)
+
